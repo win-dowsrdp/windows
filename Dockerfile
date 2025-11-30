@@ -7,7 +7,7 @@ ENV VERSION="win10"
 # 2. DISABLE KVM (CRITICAL FOR RENDER)
 # Render does not support KVM (Hardware Virtualization), even on Pro.
 # We must set this to "N" to force Software Mode, or it will crash on boot.
-KVM='N'
+ENV KVM="N"
 # 3. MAXIMIZE RESOURCES (PRO TIER)
 # Adjust these based on your specific Render plan limits.
 ENV RAM_SIZE="12G"
