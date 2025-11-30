@@ -10,7 +10,7 @@ ENV VERSION="win10"
 ENV KVM="N"
 # 3. MAXIMIZE RESOURCES (PRO TIER)
 # Adjust these based on your specific Render plan limits.
-ENV RAM_SIZE="12G"
+ENV RAM_SIZE="13G"
 ENV CPU_CORES="4"
 ENV DISK_SIZE="64G"
 
