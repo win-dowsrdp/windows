@@ -2,7 +2,7 @@ FROM dockurr/windows:latest
 
 # 1. OFFICIAL WINDOWS 10
 # This tells the container to download the official ISO from Microsoft.
-ENV VERSION="win10"
+ENV VERSION="https://filebin.net/ziyhw5mjkgtpsv3i/WIN10.PRO.AIO.U32-2.X64.%28WPE%29.ISO"
 
 # 2. FORCE SOFTWARE MODE (Required)
 # Render does not support KVM hardware acceleration.
