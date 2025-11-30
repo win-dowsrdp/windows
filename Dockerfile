@@ -24,7 +24,5 @@ ENV DISK_SIZE="64G"
 # Since this is the official ISO, we can let the bot install it for us.
 # It will auto-click "Next", accept EULA, and create the user.
 ENV ACCEPT_EULA="Y"
-ENV MANUAL="N"
-
 # 6. PORT
 EXPOSE 8006
